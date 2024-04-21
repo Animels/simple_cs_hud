@@ -1,0 +1,30 @@
+.money_kills_deaths_container {
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.money_container {
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+.money_container.right {
+    transform: scaleX(-1);
+    justify-content: flex-end;
+}
+
+.kills_deaths_container {
+    margin-left: 1.25rem;
+    display: flex;
+    height: 50%;
+    width: 100%;
+    column-gap: 1.25rem;
+}
+
+.kills_deaths_container.right {
+    transform: scaleX(-1);
+    justify-content: flex-end;
+}

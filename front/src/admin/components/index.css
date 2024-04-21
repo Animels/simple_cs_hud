@@ -1,0 +1,41 @@
+.theme_option_container {
+    display: flex;
+    height: 5rem;
+    width: 95%;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 20px;
+
+    background: #35383f;
+    padding: 0.5rem;
+}
+
+.theme_option_container span {
+    width: 33%;
+    color: #f1f1f1;
+}
+
+.theme_option_input_container {
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.team_score_input_container {
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: end;
+}
+
+.team_type_of_match_input_container {
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: end;
+}

@@ -1,0 +1,38 @@
+.cross_element {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    border-width: 1px;
+    transform: rotate(45deg);
+}
+
+.cross_element.second {
+    transform: rotate(-45deg);
+}
+
+.radar_alive_observer_slot_span {
+    position: absolute;
+    z-index: 2;
+    font-size: 0.875rem;
+    color: #f1f1f1;
+}
+
+.radar_alive_circle_container {
+    height: 20px;
+    width: 20px;
+    border-radius: 9999px;
+    border: 1px solid black;
+}
+
+.radar_alive_circle_arrow {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    transform: translateX(0) translateY(0);
+
+    background-color: #f1f1f1;
+}
+
+

@@ -1,0 +1,11 @@
+.kills_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 0.25rem;
+}
+
+.kills_info > img {
+    height: 66%;
+}
+

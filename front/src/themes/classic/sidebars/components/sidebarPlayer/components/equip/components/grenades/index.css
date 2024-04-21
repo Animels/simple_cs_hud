@@ -1,0 +1,12 @@
+.grenades_container {
+    display: flex;
+    height: 50%;
+    width: 66%;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 0.5rem;
+}
+
+.grenades_container img {
+    height: 66%;
+}

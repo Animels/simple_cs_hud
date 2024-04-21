@@ -1,0 +1,11 @@
+.health_info {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.health_info > img {
+    height: 66%;
+}

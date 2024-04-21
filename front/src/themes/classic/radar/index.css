@@ -1,0 +1,12 @@
+.radar_container {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 450px;
+    width: 450px;
+}
+
+.radar_container_img {
+    height: 100%;
+    width: 100%;
+}

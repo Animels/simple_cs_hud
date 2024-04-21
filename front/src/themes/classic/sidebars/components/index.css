@@ -1,0 +1,29 @@
+.focused_player_container {
+    display: flex;
+    margin: 0.5rem;
+    height: 6rem;
+    width: 25%;
+    flex-direction: column;
+}
+
+.focused_player_container > div {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.focused_player_container > div > div {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.focused_player_container > div > span {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+
+

@@ -1,0 +1,70 @@
+.score_and_timer_container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.teams_scores_and_timer_container {
+    display: flex;
+    height: 75%;
+    column-gap: 0.25rem;
+    padding: 0.5rem;
+}
+
+.team_score {
+    display: flex;
+    width: 6rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.phase_and_timer_container {
+    width: 8rem;
+}
+
+.phase_and_timer_container > img {
+    display: flex;
+    height: 66%;
+    width: 66%;
+    align-items: center;
+}
+
+.phase_container {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.map_score_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.team_map_score {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.score_cell {
+    flex-grow: inherit;
+    width: 1.5rem;
+    height: 0.5rem;
+    background: #8fa2ab;
+}
+
+.fill {
+    background: #d9c092;
+}
+
+.left {
+    transform: scaleX(-1);
+}

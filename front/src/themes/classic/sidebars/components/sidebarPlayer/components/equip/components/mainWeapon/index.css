@@ -1,0 +1,11 @@
+.main_weapon_container {
+    display: flex;
+    height: 100%;
+    width: 33%;
+    justify-content: center;
+}
+
+.main_weapon_container > img {
+    width: 66%;
+}
+

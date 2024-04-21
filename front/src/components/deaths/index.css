@@ -1,0 +1,11 @@
+.deaths_counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 0.25rem;
+    width: 2.5rem;
+}
+
+.deaths_counter > img {
+    height: 66%;
+}

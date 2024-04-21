@@ -1,0 +1,16 @@
+.header_container {
+    position: absolute;
+    display: flex;
+    top: 0;
+    height: 8rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_c4 {
+    display: flex;
+    height: 66%;
+    width: 66%;
+    justify-items: center;
+}

@@ -1,0 +1,10 @@
+.pistol_container {
+    display: flex;
+    height: 50%;
+    width: 66%;
+    justify-content: flex-end;
+}
+
+.pistol_container img {
+    height: 66%;
+}
